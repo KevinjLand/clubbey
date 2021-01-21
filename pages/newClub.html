@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Clubbey</title>
+	<link href="/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <a href="allClubs.html">
+  <img class="less" src="/images/less.jpg" />
+  </a>
+
+<!-- Forms needed to make a new club -->
+  <form name="newClubForm">
+    <div>
+      <label for="clubForm">Club Name:</label>
+      <input id="clubForm" type="text" name="club" required>
+    </div>
+
+    <div>
+      <label for="managerForm">Club Manager's Name:</label>
+      <input id="managerForm" type="text" name="manager" required>
+    </div>
+
+    <div>
+      <label for="moreInfoForm">Bio:</label>
+      <textarea id="moreInfoForm" name="moreInfo"></textarea>
+    </div>
+
+    <div>
+      <button class="button" id="bSubmit" onclick="myFunction()">Submit</button>
+    </div>
+  </form>
+
+  <script src="/script.js"></script>
+</body>
+
+</html>

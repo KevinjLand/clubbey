@@ -1,0 +1,178 @@
+h1{
+  font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+
+body{
+  margin: 0px;
+}
+
+.page{
+  height:auto;
+  width:auto;
+  background-color:#000000;
+}
+
+.rectangle{
+  background-color:#0b4f6c;
+  position:relative;
+  min-height: 96px;
+  padding:0px;
+  margin:0px;
+  display:flex;
+  Justify-content: space-around;
+}
+
+.button{
+  color:white;
+  background-color:#0b4f6c;
+  font-size:20px;
+  position: relative; 
+}
+
+.click{
+  font-size:20px;
+  color:white;
+  background-color:#0b4f6c;
+  width:70%;
+  height:60px;  
+  border-radius:25px;
+  position:relative;
+  bottom: 30px;
+  left: 10%;
+}
+
+.flexContainer{
+display:flex;
+justify-content: center; 
+}
+
+.section1{
+width:50%;
+height:1000px;
+margin:5px;
+}
+
+.section2{
+width:50%;
+height:1000px;
+margin:5px;
+}
+
+.links{
+  position:relative;
+  font-size:20px;
+}
+
+.links:link,.links:visited{
+  color:white;
+}
+
+.links:hover{
+  color:grey;
+}
+
+.pageTitle{
+  position: relative;
+}
+
+#calButton{
+  border-width: 2px;
+  height: 50px;
+  width: 170px;
+  font-size:20px;
+  position: relative; 
+}
+
+#mainButton{
+  border-width: 2px;
+  height: 50px;
+  width: 170px;
+  font-size:20px;
+  position: relative; 
+}
+
+#announceButton{
+  border-width: 2px;
+  height: 50px;
+  width: 170;
+  font-size:20px;
+  position: relative; 
+}
+
+.feed{
+  display:flex;
+  justify-content: center; 
+  flex-direction:column;
+}
+
+.add{
+  position: relative;
+  left: 97%; 
+  bottom: 70px;
+  height: 40px;
+  width: 40px;
+}
+
+.less{
+  position: relative;
+  height: 40px;
+  width: 40px;
+}
+
+.calBlock{
+  border-style: solid;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.calendar{
+  display:flex;
+  justify-content: center; 
+  flex-direction:column;
+  margin-top: 50px;
+}
+
+#calTitle{
+  padding-right: 251px;
+  padding-left: 251px;
+  padding-top: 10px;
+  border-style: solid;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 0px;
+}
+
+.calContainer{
+  position: relative;
+  text-align: center;
+  width:4%;
+}
+
+.calLess{
+  position: absolute;
+  height: 80%;
+  width: auto;
+  right:0%;
+  top:19px;
+}
+
+.calButtonL{
+  position: absolute;
+  height:80%;
+  width:75px;
+  right:0%;
+  top: 19px;
+  background-color:transparent;
+}
+
+.calButtonR{
+  position: absolute;
+  height:80%;
+  width:75px;
+  left:0%;
+  top: 19px;
+  background-color:transparent;
+}
