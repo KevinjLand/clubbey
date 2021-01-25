@@ -82,6 +82,7 @@ var calTitle = document.getElementById("calTitle");
 window.addEventListener("load", function () {
   try{
     calTitle.textContent = month + " " + year; 
+    styleCalTitle(calTitle);
   }
   catch(e){}
   
@@ -151,7 +152,42 @@ function future(){
 }
 
 function styleCalTitle(x){
- document.getElementById(x).style.padding-right = 0;
+ if(x.textContent.substring(0,7)=='January'){
+    x.style.padding = "0px 199px 0px 199px";  
+  }
+  else if(x.textContent.substring(0,7)=='Febuary'){
+    x.style.padding = "0px 197px 0px 197px";
+  }
+  else if(x.textContent.substring(0,5)=='March'){
+    x.style.padding = "0px 211px 0px 211px";
+  }
+  else if(x.textContent.substring(0,5)=='April'){
+    x.style.padding = "0px 223px 0px 223px";
+  }
+  else if(x.textContent.substring(0,3)=='May'){
+    x.style.padding = "0px 225px 0px 225px";
+  }
+  else if(x.textContent.substring(0,4)=='June'){
+    x.style.padding = "0px 221px 0px 221px";
+  }
+  else if(x.textContent.substring(0,4)=='July'){
+    x.style.padding = "0px 227px 0px 227px";
+  }
+  else if(x.textContent.substring(0,6)=='August'){
+    x.style.padding = "0px 206px 0px 206px";
+  }
+  else if(x.textContent.substring(0,9)=='September'){
+    x.style.padding = "0px 177px 0px 177px";
+  }
+  else if(x.textContent.substring(0,7)=='October'){
+    x.style.padding = "0px 199px 0px 198px";
+  }
+  else if(x.textContent.substring(0,8)=='November'){
+    x.style.padding = "0px 182px 0px 182px";
+  }
+  else if(x.textContent.substring(0,8)=='December'){
+    x.style.padding = "0px 182px 0px 182px";
+  }
 }
 
 function monthByNum(x){
